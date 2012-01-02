@@ -1,0 +1,80 @@
+This package was debianized by Scott Kitterman <scott@kitterman.com> on
+January 1, 2012.
+
+The Debian maintainer is Scott Kitterman <scott@kitterman.com>.
+
+It was downloaded from: http://code.google.com/p/nxt-python/
+
+Upstream Author: Marcus Wanner <marcus@wanners.net>
+
+Copyright:
+
+/nxt
+# Copyright (C) 2006-2007  Douglas P Lau
+# Copyright (C) 2009-2011  Marcus Wanner
+# Copyright (C) 2009-2010  rhn
+# Copyright (C) 2010-2011  zonedabone
+# Copyright (C) 2011i  Tat-Chee Wan
+# Copyright (C) 2007  Simon D. Levy
+# Copyright (C) 2011  Paul Hollensen
+# Copyright (C) 2010  Vladimir Moskva
+# Copyright (C) 2009  Paulo Vieira
+# Copyright (C) 2010  MindSensors
+# Copyright (C) 2010  melducky
+# Copyright (C) 2010  Samuel Leeman-Munk
+# Copyright (C) 2011  jerradgenson
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+See /usr/share/common-licenses/GPL-3 for the full text of the license
+
+/motcont
+%   Author: Linus Atorf
+%   Copyright: 2007-2010, RWTH Aachen University
+%
+%
+% ***********************************************************************************************
+% *  This file is part of the RWTH - Mindstorms NXT Toolbox.                                    *
+% *                                                                                             *
+% *  The RWTH - Mindstorms NXT Toolbox is free software: you can redistribute it and/or modify  *
+% *  it under the terms of the GNU General Public License as published by the Free Software     *
+% *  Foundation, either version 3 of the License, or (at your option) any later version.        *
+% *                                                                                             *
+% *  The RWTH - Mindstorms NXT Toolbox is distributed in the hope that it will be useful,       *
+% *  but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS  *
+% *  FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.             *
+% *                                                                                             *
+% *  You should have received a copy of the GNU General Public License along with the           *
+% *  RWTH - Mindstorms NXT Toolbox. If not, see <http://www.gnu.org/licenses/>.                 *
+% ***********************************************************************************************
+*/
+
+See /usr/share/common-licenses/GPL-3 for the full text of the license
+
+/scripts
+# Copyright (C) 2006  Douglas P Lau
+# Copyright (C) 2010  rhn
+# Copyright (C) 2011  zonedabone, Marcus Wanner
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+See /usr/share/common-licenses/GPL-2 for the full text of the license
+
+The Debian packaging is © 2012, Scott Kitterman <scott@kitterman.com> and
+is licensed under the same terms as the upstream package, see above.

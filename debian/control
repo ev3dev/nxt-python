@@ -1,0 +1,25 @@
+Source: nxt-python
+Section: python
+Priority: optional
+Maintainer: Scott Kitterman <scott@kitterman.com>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.3.16), python-all (>= 2.6.5-2~), quilt (>= 0.46-7)
+Vcs-Svn: svn://svn.debian.org/python-modules/packages/nxt-python/trunk
+Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/nxt-python/trunk/
+Standards-Version: 3.9.2
+Homepage: http://code.google.com/p/nxt-python/
+X-Python-Version: >= 2.6
+
+Package: python-nxt
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-usb, python-bluez
+Description: python driver/interface/wrapper for the Lego Mindstorms NXT robot
+ NXT-Python is a package for controlling a LEGO NXT robot using the Python
+ programming language. It can communicate using either USB or Bluetooth.
+
+Package: python-nxt-filer
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-nxt, python-gtk2
+Description: simple GUI to manage files on a LEGO Mindstorms NXT
+ GTK2 based file management GUI for LEGO Mindstorms NXT
+
