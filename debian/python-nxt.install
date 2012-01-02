@@ -1,0 +1,4 @@
+/usr/bin/nxt_push
+/usr/bin/nxt_server
+/usr/bin/nxt_test
+/usr/lib/python2.*/dist-packages/nxt*

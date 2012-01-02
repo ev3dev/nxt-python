@@ -1,0 +1,5 @@
+nxt-python (2.2.1-1) unstable; urgency=low
+
+  * Initial Debian release. (Closes: #653949)
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 01 Jan 2012 21:20:35 -0500

@@ -1,0 +1,5 @@
+This package uses quilt for patches.  dpkg-source -x does produce source
+ready for building with dpkg-buildpackage.  It does not procude source ready
+for editing.  See /usr/share/doc/quilt/README.source for information on using
+quilt.
+
