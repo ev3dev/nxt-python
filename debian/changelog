@@ -1,3 +1,11 @@
+nxt-python (2.2.1-2) unstable; urgency=low
+
+  * Add debian/70-lego.rules and install in /lib/udev/rules.d to give plugdev
+    access to the nxt robot (instead of just root)
+    - Based on Fedora udev rule for nxt_python 0.7
+
+ -- Scott Kitterman <scott@kitterman.com>  Tue, 17 Jan 2012 00:02:27 -0500
+
 nxt-python (2.2.1-1) unstable; urgency=low
 
   * Initial Debian release. (Closes: #653949)
