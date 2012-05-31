@@ -1,3 +1,11 @@
+nxt-python (2.2.2-1) unstable; urgency=low
+
+  * New upstream release
+    - Update copyright year in debian/copyright
+  * Bump standards version to 3.9.3 without further change
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 30 May 2012 22:18:08 -0400
+
 nxt-python (2.2.1-2) unstable; urgency=low
 
   * Add debian/70-lego.rules and install in /lib/udev/rules.d to give plugdev
