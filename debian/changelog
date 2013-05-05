@@ -1,3 +1,9 @@
+nxt-python (2.2.2-2) UNRELEASED; urgency=low
+
+  * Use canonical URIs for Vcs-* fields.
+
+ -- Jakub Wilk <jwilk@debian.org>  Sun, 05 May 2013 16:01:24 +0200
+
 nxt-python (2.2.2-1) unstable; urgency=low
 
   * New upstream release

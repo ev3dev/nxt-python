@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Scott Kitterman <scott@kitterman.com>
 Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Build-Depends: debhelper (>= 7.3.16), python-all (>= 2.6.5-2~), quilt (>= 0.46-7)
-Vcs-Svn: svn://svn.debian.org/python-modules/packages/nxt-python/trunk
-Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/nxt-python/trunk/
+Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/nxt-python/trunk/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/nxt-python/trunk/
 Standards-Version: 3.9.3
 Homepage: http://code.google.com/p/nxt-python/
 X-Python-Version: >= 2.6
