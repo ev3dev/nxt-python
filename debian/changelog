@@ -1,7 +1,14 @@
 nxt-python (2.2.2-2) UNRELEASED; urgency=low
 
+  [ Jakub Wilk ]
   * Use canonical URIs for Vcs-* fields.
   * Fix a typo in README.source.
+
+  [ Scott Kitterman ]
+  * Inlcude .desktop file for nxt_filer to allow it to be started from the
+    KDE or Gnome application menu (Closes: #697223)
+  * Bump standards version to 3.9.4 and change compat to 8 and the debhelper
+    version requirement to 8.1 for build-indep/build-arch targets
 
  -- Jakub Wilk <jwilk@debian.org>  Wed, 12 Jun 2013 01:44:23 +0200
 
