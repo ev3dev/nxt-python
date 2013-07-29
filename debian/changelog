@@ -1,4 +1,4 @@
-nxt-python (2.2.2-2) UNRELEASED; urgency=low
+nxt-python (2.2.2-2) unstable; urgency=low
 
   [ Jakub Wilk ]
   * Use canonical URIs for Vcs-* fields.
@@ -10,7 +10,7 @@ nxt-python (2.2.2-2) UNRELEASED; urgency=low
   * Bump standards version to 3.9.4 and change compat to 8 and the debhelper
     version requirement to 8.1 for build-indep/build-arch targets
 
- -- Jakub Wilk <jwilk@debian.org>  Wed, 12 Jun 2013 01:44:23 +0200
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 29 Jul 2013 18:40:31 -0400
 
 nxt-python (2.2.2-1) unstable; urgency=low
 
