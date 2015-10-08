@@ -6,3 +6,6 @@
 nxt-python_2.2.2.orig.tar.gz
 c6543c1f601d13453e71606c6d84e3a28f0adcf7
 95225
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
