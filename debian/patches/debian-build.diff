@@ -1,7 +1,17 @@
-Index: nxt-python-2.2.1/setup.py
-===================================================================
---- nxt-python-2.2.1.orig/setup.py	2012-01-01 22:02:13.458098987 -0500
-+++ nxt-python-2.2.1/setup.py	2012-01-01 22:02:21.498098749 -0500
+From 8298b38d046c02238281afd630de05f7ddb21b67 Mon Sep 17 00:00:00 2001
+From: SVN-Git Migration <python-modules-team@lists.alioth.debian.org>
+Date: Thu, 8 Oct 2015 10:03:31 -0700
+Subject: debian-build.diff
+
+Patch-Name: debian-build.diff
+---
+ setup.py | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/setup.py b/setup.py
+index d1f8c0a..129b6d8 100644
+--- a/setup.py
++++ b/setup.py
 @@ -1,5 +1,3 @@
 -#!/usr/bin/env python
 -
