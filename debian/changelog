@@ -1,3 +1,9 @@
+nxt-python (2.2.2-3) UNRELEASED; urgency=medium
+
+  * Fixed VCS URL (https)
+
+ -- Ondřej Nový <novy@ondrej.org>  Tue, 29 Mar 2016 21:44:59 +0200
+
 nxt-python (2.2.2-2) unstable; urgency=low
 
   [ Jakub Wilk ]
