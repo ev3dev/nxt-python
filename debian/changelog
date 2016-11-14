@@ -1,4 +1,4 @@
-nxt-python (2.2.2-3) UNRELEASED; urgency=medium
+nxt-python (2.2.2-3) unstable; urgency=medium
 
   [ Ondřej Nový ]
   * Fixed VCS URL (https)
@@ -13,8 +13,9 @@ nxt-python (2.2.2-3) UNRELEASED; urgency=medium
     #839817)
   * Agreed maintainer change to debian-lego-team@lists.alioth.debian.org and
     Petter Reinholdtsen <pere@hungry.com> as uploader
+  * Add dh-python to build-depends
 
- -- Scott Kitterman <scott@kitterman.com>  Mon, 14 Nov 2016 13:55:46 -0500
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 14 Nov 2016 13:59:56 -0500
 
 nxt-python (2.2.2-2) unstable; urgency=low
 
