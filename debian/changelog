@@ -1,3 +1,10 @@
+nxt-python (2.2.2-4) unstable; urgency=low
+
+  * Added AppStream metadata announcing hardware support. (Closes: #838102)
+  * Moved Git repository from the python to the lego team.
+
+ -- Petter Reinholdtsen <pere@debian.org>  Wed, 21 Dec 2016 07:51:12 +0000
+
 nxt-python (2.2.2-3) unstable; urgency=medium
 
   [ Ondřej Nový ]
