@@ -3,3 +3,4 @@
 /usr/bin/nxt_test
 /usr/lib/python2.*/dist-packages/nxt*
 /../70-lego.rules lib/udev/rules.d
+debian/python-nxt.metainfo.xml /usr/share/metainfo

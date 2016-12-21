@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <id>python-nxt</id>
+  <metadata_license>MIT</metadata_license>
+  <name>python-nxt</name>
+  <summary>Python driver/interface/wrapper for the Lego Mindstorms NXT robot</summary>
+  <description>
+    <p>
+NXT-Python is a package for controlling a LEGO NXT robot using the
+Python programming language. It can communicate using either USB or
+Bluetooth.
+    </p>
+  </description>
+  <provides>
+    <modalias>usb:v0694p0002d*</modalias>
+  </provides>
+</component>
