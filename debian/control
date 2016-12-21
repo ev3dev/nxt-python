@@ -2,7 +2,7 @@ Source: nxt-python
 Section: python
 Priority: optional
 Maintainer: Debian Lego Team <debian-lego-team@lists.alioth.debian.org>
-Uploaders: Petter Reinholdtsen <pere@hungry.com>
+Uploaders: Petter Reinholdtsen <pere@debian.org>
 Build-Depends: debhelper (>= 9), dh-python, python-all (>= 2.6.5-2~), quilt (>= 0.46-7)
 Vcs-Git: https://anonscm.debian.org/git/debian-lego/nxt-python.git
 Vcs-Browser: https://anonscm.debian.org/cgit/debian-lego/nxt-python.git
