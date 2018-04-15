@@ -16,9 +16,3 @@ Description: python driver/interface/wrapper for the Lego Mindstorms NXT robot
  NXT-Python is a package for controlling a LEGO NXT robot using the Python
  programming language. It can communicate using either USB or Bluetooth.
 
-Package: python-nxt-filer
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-nxt, python-gtk2
-Description: simple GUI to manage files on a LEGO Mindstorms NXT
- GTK2 based file management GUI for LEGO Mindstorms NXT
-
