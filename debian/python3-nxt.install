@@ -1,0 +1,2 @@
+debian/70-lego.rules lib/udev/rules.d
+debian/python3-nxt.metainfo.xml /usr/share/metainfo

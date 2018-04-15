@@ -1,3 +1,9 @@
+nxt-python (3.0~20180305.1.e9cfe56-1) UNRELEASED; urgency=medium
+
+  * 
+
+ -- David Lechner <david@lechnology.com>  Sun, 15 Apr 2018 15:29:06 -0500
+
 nxt-python (2.2.2-4) unstable; urgency=low
 
   * Added AppStream metadata announcing hardware support. (Closes: #838102)

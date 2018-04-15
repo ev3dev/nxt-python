@@ -2,17 +2,17 @@ Source: nxt-python
 Section: python
 Priority: optional
 Maintainer: David Lechner <david@lechnology.com>
-Build-Depends: debhelper (>= 9), dh-python, python-all (>= 2.6.5-2~), quilt (>= 0.46-7)
+Build-Depends: debhelper (>= 9), dh-python, python3-all, quilt (>= 0.46-7)
 Vcs-Git: https://github.com/ev3dev/nxt-python.git
 Vcs-Browser: https://github.com/ev3dev/nxt-python
 Standards-Version: 3.9.8
 Homepage: https://github.com/eelviny/nxt-python
-X-Python-Version: >= 2.6
 
-Package: python-nxt
+Package: python3-nxt
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-usb, python-bluez
+Depends: ${misc:Depends}, ${python3:Depends}
+Conflicts: python-nxt
+Replaces: python-nxt
 Description: python driver/interface/wrapper for the Lego Mindstorms NXT robot
  NXT-Python is a package for controlling a LEGO NXT robot using the Python
  programming language. It can communicate using either USB or Bluetooth.
-

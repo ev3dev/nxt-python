@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-  <id>python-nxt</id>
+  <id>python3-nxt</id>
   <metadata_license>MIT</metadata_license>
   <name>python-nxt</name>
   <summary>Python driver/interface/wrapper for the Lego Mindstorms NXT robot</summary>
