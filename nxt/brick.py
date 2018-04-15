@@ -24,7 +24,7 @@ def _make_poller(opcode, poll_func, parse_func):
     def poll(self, *args, **kwargs):
         ogram = poll_func(opcode, *args, **kwargs)
         with self.lock:
-            self.sock.send(str(ogram))
+            self.sock.send(ogram.bytes())
             if ogram.reply:
                 igram = Telegram(opcode=opcode, pkt=self.sock.recv())
         if ogram.reply:
@@ -212,10 +212,8 @@ class ModuleFinder(object):
                 break
 
 
-class Brick(object): #TODO: this begs to have explicit methods
+class Brick(object, metaclass=_Meta): #TODO: this begs to have explicit methods
     'Main object for NXT Control'
-
-    __metaclass__ = _Meta
 
     def __init__(self, sock):
         self.sock = sock
