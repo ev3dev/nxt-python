@@ -1,8 +1,11 @@
-nxt-python (3.0~20180305.1.e9cfe56-1) UNRELEASED; urgency=medium
+nxt-python (3.0~20180305.1.e9cfe56-1ev3dev1) stable; urgency=medium
 
-  * 
+  * Update package to python3 only
+  * Drop python-nxt-filer package
+  * Merge upstream git commit e9cfe56
+  * ev3dev takeover
 
- -- David Lechner <david@lechnology.com>  Sun, 15 Apr 2018 15:29:06 -0500
+ -- David Lechner <david@lechnology.com>  Sun, 15 Apr 2018 17:11:52 -0500
 
 nxt-python (2.2.2-4) unstable; urgency=low
 
