@@ -15,7 +15,7 @@
 try:
     import bluetooth
 except ImportError:
-    import lightblueglue as bluetooth
+    from . import lightblueglue as bluetooth
 from nxt.brick import Brick
 
 class BlueSock(object):
@@ -35,28 +35,31 @@ class BlueSock(object):
 
     def connect(self):
         if self.debug:
-            print 'Connecting via Bluetooth...'
+            print('Connecting via Bluetooth...')
         sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
         sock.connect((self.host, BlueSock.PORT))
         self.sock = sock
         if self.debug:
-            print 'Connected.'
+            print('Connected.')
         return Brick(self)
 
     def close(self):
         if self.debug:
-            print 'Closing Bluetooth connection...'
+            print('Closing Bluetooth connection...')
         self.sock.close()
         if self.debug:
-            print 'Bluetooth connection closed.'
+            print('Bluetooth connection closed.')
 
     def send(self, data):
-        if self.debug:
-            print 'Send:',
-            print ':'.join('%02x' % ord(c) for c in data)
+        data = bytes(data)
         l0 = len(data) & 0xFF
         l1 = (len(data) >> 8) & 0xFF
-        d = chr(l0) + chr(l1) + data
+        d = [l0, l1]
+        for item in data:
+            d.append(item)
+        d = bytes(d)
+        if self.debug:
+            print('Sending byte: ' + str(data))
         self.sock.send(d)
 
     def recv(self):
@@ -66,8 +69,8 @@ class BlueSock(object):
         plen = l0 + (l1 << 8)
         data = self.sock.recv(plen)
         if self.debug:
-            print 'Recv:',
-            print ':'.join('%02x' % ord(c) for c in data)
+            print('Recv:', end=' ')
+            print(':'.join('%02x' % ord(c) for c in data))
         return data
 
 def _check_brick(arg, value):
